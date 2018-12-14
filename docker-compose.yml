@@ -1,0 +1,13 @@
+version: "3"
+services:
+  jenkins:
+    image: "adamino/angular-jenkinsci"
+    ports:
+      - "1337:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    environment:
+      - Dhudson.model.DirectoryBrowserSupport.CSP="sandbox allow-scripts; default-src 'self'; style-src 'self' 'unsafe-inline';"
+volumes:
+    jenkins_home:
