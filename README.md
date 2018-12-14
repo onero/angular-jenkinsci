@@ -22,11 +22,13 @@ First time the compose is done, I recommend running
 docker compose-up
 ```
 
-This way you will see the output of the container, which is needed because of the intial admin installation token [read more](https://jenkins.io/doc/book/installing/)
+This way you will see the output of the container, which is needed because of the initial admin installation token [read more](https://jenkins.io/doc/book/installing/)
 
 After initial installation, simply run
 
 ```
 docker-compose up -d
 ```
+
+Jenkins is hosted on [localhost:1337](http://localhost:1337/)
 
