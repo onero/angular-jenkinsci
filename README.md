@@ -27,6 +27,6 @@ This way you will see the output of the container, which is needed because of th
 After initial installation, simply run
 
 ```
-docker-compose up -d for interactive terminal
+docker-compose up -d
 ```
 
